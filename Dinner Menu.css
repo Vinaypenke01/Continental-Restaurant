@@ -1,0 +1,218 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex; 
+}
+.head{
+    top: 0%;
+    z-index: 1000;
+    position: fixed;
+    background-color: black;
+    transition: background-color 0.4s ease-in-out;
+}
+header.scrolled{
+    background-color: red;
+}
+header .logo nav{
+    transition: color 0.4s ease-in-out;
+}
+header.scrolled .logo nav{
+    background-color: red;
+}
+.logo{
+    background-color: aliceblue;
+    height: 150px;
+    box-shadow: inset;
+    border-radius: 0 0 15% 15%;
+    margin-left: 42px;
+    margin-right: 450px;
+    padding: 10px;
+    position: absolute;
+        /* animation: Logo-Spin infinite 20s linear; */
+}
+/* @keyframes Logo-Spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+} */
+ a, nav, li ,ul{
+    list-style: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-decoration: solid;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-right: 0%;
+    padding-bottom: 10px;
+}
+nav{
+    margin-left: 800px;
+
+}
+li :hover{
+    color: gold;
+}
+.bg{
+    height: 15vh;
+    width: 100%;
+    background-color: black;
+}
+/* .img{
+    height: 150px;
+    width: 249px;
+    padding-top: 20px;
+} */
+.s2 {
+    display: flex;
+    justify-content: center; /* Centers the images horizontally */
+    /* flex-wrap: wrap; Allows images to wrap to the next line if they don't fit in one row */
+}
+
+.img {
+    margin: 0; /* Removes any margin around images */
+    padding: 0; /* Ensures no padding is around the images */
+    border: none; /* Ensures no border around the images */
+    padding-top: 0px 0px 0px 0px;
+}
+section3{
+    display: flex;
+    margin: 10px 260px;
+    padding:  opx 20px;
+    justify-content: space-between;
+}
+.h2,.h23{
+    border-bottom: 2px solid red;
+    text-align: start;
+    padding-left: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+.h21{
+    border-bottom: 2px solid red;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 40px; ;
+    color: rgb(247, 244, 244);
+    font-weight: bold;
+    font-size: x-large;
+}
+.h221{
+    border-bottom: 2px solid red;
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px; ;
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+.h6,.h62 ,.h63{
+    font-weight: bold;
+    font-size: medium;
+    font-style: italic;
+    text-align: start;
+    margin: 10px;
+    color: aliceblue;
+}
+.h4,.h42,.h43{
+    text-align: start;
+    margin: 10px ;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+.p,.p2,.P3{
+    text-align: start;
+    color: white;
+    margin: 10px ;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.p21{
+    text-align: start;
+    margin: 10px ;
+    font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(53, 53, 53);
+}
+.h3{
+    padding: 20px;
+    font-size: xx-large;
+    color: rgb(241, 41, 75);
+}
+.p1{
+    font-weight: bold;
+    padding-bottom: 15px;
+    color: white;
+}
+.h22{
+    border-bottom: 2px solid red;
+    text-align: start;
+    
+    margin: left 100px; ;
+    color: red;
+    font-weight: bold;
+    font-size: x-large;
+}
+.em,.one1{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.box{
+    border: 2px solid white;
+    background-color: white;
+    color: rgb(53, 53, 53);
+    padding: 20px;
+    border-radius: 20px;
+}
+section{
+    background-color: rgb(21, 21, 21);
+    margin: 0%;
+    padding: 0%;
+}
+.div2{
+    margin: 0px 260px;
+    padding:  opx 20px;
+}
+.b{
+    padding-bottom: 75px;
+
+}
+.two{
+    padding-bottom: 75px;
+    margin-top: 75px;
+}
+section32{
+        display: flex;
+        margin: 0px 260px;
+        padding:  opx 20px;
+        justify-content: space-between;
+    
+}
+.butt{
+    text-align: center;
+    padding: 10px 420px;
+    margin: 20px 240px;
+    background-color: red;
+    color: white;
+}
+.butt:hover{
+    background-color: white;
+    color: black;
+} 
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEDE</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+
+<body>
+    <main class="bg">
+        <header>
+            <div class="logo">
+                <a href="Home.html"></a><img src="./images/logo-dedelicieux-vertical.png" height="150px" ,
+                    width="200px"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="bar"><a href="index.html">welcome</a></li>
+                    <li class="bar"><a href="Lunch Menu.html">lunch menu</a></li>
+                    <li class="bar"><a href="Dinner Menu.html">dinner menu </a></li>
+                    <li class="bar"><a href="contact.html">contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="bg1">
+            <div>
+                <h2>
+                    Elizabeth and
+                    Beelzebub</h2>
+                <p>with freshly squeezed orange juice</p>
+            </div>
+        </section>
+    </main>
+    <section2>
+        <div class="ma">
+            <h1> The restaurant</h1>
+        </div>
+        <div class="png">
+            <p class="hei">Our restaurant is a tribute to the frenzy that animated André<b>“Dédé” Fortin </b> ,
+                charismatic singer of the popular group “Les Colocs” from Normandin in Lac-Saint-Jean</p>
+            <img src="images/draw.png">
+        </div>
+        <div class="mat">
+            <p class="hei1">Just like Dédé Fortin, our lunches and dinners are filled with a contagious frenzy! Whether
+                early in the morning or
+                in the middle of the day,our dishes are appetizing and always prepared with passion and appreciated by
+                our customers.</p><br>
+            <p class="hei1">Comfortably seated, you can fully appreciate the freshness of our fresh fruits, our wide
+                selection of dishes and our delicious daily menus.</p>
+        </div>
+        <div class="mat">
+            <p class="hei1">With family or friends, you will find yourself in a warm and urban setting embellished with
+                the memories and lyrics of this renowned singer-songwriter, founding member of the group Les Colocs.</p>
+            <br><br><br><br>
+            <p class="hei1">It
+                is therefore not surprising to note that Dédélicieux's passion for the freshness and taste of food makes
+                it one of the best restaurants in Saguenay–Lac-Saint-Jean.</p>
+        </div>
+        <img src="images/s1.jpg" class="img">
+        <img src="images/s2.jpg" class="img">
+        <img src="images/s3.jpg" class="img">
+        <img src="images/s4.jpg" class="img">
+        <img src="images/s5.jpg" class="img">
+        <img src="images/s6.jpg" class="img">
+        <div class="imgh">
+            <img src="./images/h1.jpeg" class="imgh1">
+            <img src="./images/h2.jpeg" class="imgh1">
+            <img src="images/h3.jpeg" class="imgh1">
+            <img src="images/h4.jpeg" class="imgh1">
+            <img src="images/h5.jpeg" class="imgh1">
+            <img src="images/hotel.jpeg" class="imgh1">
+            <img src="images/h7.jpeg" class="imgh1">
+            <img src="images/h2.jpeg" class="imgh1">
+            <img src="images/h8.jpeg" class="imgh1">
+            <img src="images/h6.jpeg" class="imgh1">
+            <img src="images/h9.jpeg" class="imgh1">
+            <img src="images/h10.jpeg" class="imgh1">
+        </div>
+    </section2>
+    <p id="content">I was recently in Normandin and was advised to go have lunch at your place. I was simply charmed by
+        everything, <br>everything, everything! What a beautiful tribute to this man and delicious meal too. Thank you!
+        I will definitely make a special one to go back!<br>- Edith Gaudreault</p>
+    <p></p>
+    <input type="radio" onclick="one()" class="radio">
+    <input type="radio" onclick="one1()" class="radio">
+    <input type="radio" onclick="one2()" class="radio">
+    <input type="radio" onclick="one3()" class="radio"><br>
+    <img src="images/lg.png" class="ig">
+    <div class="mat1">
+        <h2>Marie-Josée Girard</h2>
+        <h2>Émilie Frigon</h2>
+    </div>
+    <div class="mat1">
+        <h4>Propriétaire</h4>
+        <h4>Propriétaire</h4>
+    </div>
+    <img src="images/ow.jpeg" class="ow">
+
+
+    <script>
+        function one() {
+            document.getElementById("content").innerHTML =
+                "A sold clientele! This was our second year on New Year's Day. There were several of us from La Doré,<br> St-Félicien and St-Méthode and it was categorical; everyone LOVES it! <br> -Carl Dubois";
+        }
+        function one1() {
+            document.getElementById("content").innerHTML =
+                "We had lunch at your restaurant and loved the atmosphere.<br> The service of the charming Émilie is always so great and what can I say about your lunchesDelicious: long live your team! <br>- Therese Manzerolle";
+        }
+        function one2() {
+            document.getElementById("content").innerHTML =
+                "I loved it! Really a beautiful concept, fresh ideas at Normandin…We like it! Hats off to you girls!<br>- Isabelle Drapeau";
+        }
+        function one3() {
+            document.getElementById("content").innerHTML =
+                "I went there for lunch and it was excellent! Super nice concept and 'Dédélicieux' meal! Congratulations and long success! :)<br>- Veronique Dubé";
+        }
+    </script>
+
+    <script>
+        document.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+
+            if (window.scrollY > 0) {
+                header.classList.add('scrolled');
+
+            } else {
+                header.classList.remove('scrolled');
+            }
+        })
+    </script>
+    <script>
+        function checkScreenSize() {
+            if (window.innerWidth < 768) {
+                alert("This website is best viewed on a larger screen. Please switch to desktop mode for a better experience.");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", checkScreenSize);
+        window.addEventListener("resize", checkScreenSize);
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+*{ 
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    transition: background-color 0.4s ease-in-out;
+    
+    
+}
+header.scrolled{
+    background-color: black;
+    
+}
+.logo{
+    background-color: aliceblue;
+    height: 150px;
+    box-shadow: inset;
+    border-radius: 0 0 15% 15%;
+    margin-left: 75px;
+    margin-right: 450px;
+    padding: 10px;
+    position: absolute;
+}
+header .logo {
+    transition: color 0.4s ease-in-out;
+}
+header.scrolled .logo {
+    color: black;
+}
+ a, nav, li ,ul{
+    list-style: none;
+    text-decoration: none;
+    font-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-right: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: capitalize;
+}
+
+li :hover{
+    color: red;
+}
+nav{
+    margin-left: 800px;
+}
+.bg1{
+ 
+    display: flex;
+    justify-content: right;
+    color: white;
+    font-size: 300%;
+    padding-top:  250px ;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-style: italic;
+
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/b7.jpg);
+    position: relative;
+    background-position:center;
+    background-size: cover;
+}
+h2{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 150%;
+}
+.png{
+    font-size: 230%; 
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 200px ;
+    color: rgb(108, 107, 106);
+    
+}
+.hei{
+    margin-top: 150px;
+    color: black;
+}
+.mat{
+    font-size: 150%;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px ;
+    color: rgb(108, 107, 106);
+}
+.mat1{
+    margin: 10px 550px;
+    display: flex;
+    justify-content: space-around;
+}
+.hei1{
+    text-align: start;
+}
+.img{
+    height: 150px;
+    width: 249px;
+}
+.imgh{
+    margin: 0px 200px;
+}
+.imgh1{
+    margin: 10px;
+    height: 300px;
+    width: 350px;
+}
+.ma{
+    font-style: italic;
+    font-size: xx-large;
+    color: rgb(71, 70, 70)
+}
+.ig{
+    margin: 40px;
+}
+.ow{
+    width: 100%;
+    height: 550px;
+}
